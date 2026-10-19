@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080d19">
+    <title>JASMI.NE — Digital Archive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="noise"></div>
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <header class="topbar">
+        <a href=" " class="logo">JASMI<span>.</span>NE</a>
+        <div class="system-status">
+            <span class="status-dot"></span>
+            ARCHIVE SYSTEM ONLINE
+        </div>
+        <nav>
+            <a href="#archive">ARCHIVE</a>
+            <a href="#media">MEDIA LOG</a>
+            <a href="#about">ABOUT</a>
+        </nav>
+        <div class="top-index">NO. 001 / 2026</div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-meta">
+                <span>PERSONAL VISUAL ARCHIVE</span>
+                <span>CHENGDU / CN</span>
+            </div>
+
+            <div class="hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">A DIGITAL COLLECTION OF MYSELF</p>
+                    <h1>DIGITAL<br><span>AFTERIMAGE</span></h1>
+                    <p class="hero-desc">
+                        视觉设计 / 内容运营 / 数字实验<br>
+                        Collecting fragments of ideas, images and digital traces.
+                    </p>
+                    <a href="#archive" class="enter-btn">
+                        <span>ENTER THE ARCHIVE</span>
+                        <span>↘</span>
+                    </a>
+                </div>
+
+                <div class="hero-art" aria-label="抽象银蓝色数字视觉装置">
+                    <div class="orb orb-one"></div>
+                    <div class="orb orb-two"></div>
+                    <div class="orb orb-three"></div>
+                    <div class="orbit orbit-one"></div>
+                    <div class="orbit orbit-two"></div>
+                    <div class="crosshair">+</div>
+                    <div class="art-label label-top">FIG. 001 — DIGITAL MATTER</div>
+                    <div class="art-label label-bottom">UNSTABLE / REPEATING / ARCHIVED</div>
+                    <div class="art-code">J—026<br>00101010<br>AFTERIMAGE</div>
+                </div>
+            </div>
+
+            <div class="hero-bottom">
+                <span>INDEPENDENT CREATION</span>
+                <span>VISUAL CULTURE · NEW MEDIA</span>
+                <span>SCROLL TO EXPLORE ↓</span>
+            </div>
+        </section>
+
+        <section class="archive-section section" id="archive">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">01 / COLLECTION INDEX</p>
+                    <h2>THE ARCHIVE<span>_</span></h2>
+                </div>
+                <p class="section-note">点击档案袋<br>打开对应作品集</p>
+            </div>
+
+            <div class="filter-row">
+                <button class="filter-btn active" data-filter="all">ALL FILES <span>05</span></button>
+                <button class="filter-btn" data-filter="visual">VISUAL DESIGN</button>
+                <button class="filter-btn" data-filter="merch">MERCH & OBJECT</button>
+            </div>
+
+            <div class="folder-grid">
+                <button class="folder-card" data-folder="core" data-category="visual">
+                    <div class="folder-meta"><span>FILE_001</span><span>2026</span></div>
+                    <div class="folder-art art-core">
+                        <div class="folder-stamp">CORE<br>STUDY</div>
+                        <div class="folder-shape shape-core"></div>
+                        <span class="art-index">A—01</span>
+                    </div>
+                    <div class="folder-info">
+                        <div>
+                            <h3>核像失焦</h3>
+                            <p>CORE / DREAMCORE STUDY</p>
+                        </div>
+                        <span class="folder-arrow">↗</span>
+                    </div>
+                </button>
+
+                <button class="folder-card" data-folder="sticker" data-category="merch">
+                    <div class="folder-meta"><span>FILE_002</span><span>2026</span></div>
+                    <div class="folder-art art-sticker">
+                        <div class="sticker-shape sticker-one">?</div>
+                        <div class="sticker-shape sticker-two">!</div>
+                        <div class="sticker-shape sticker-three">✳</div>
+                        <span class="art-index">A—02</span>
+                    </div>
+                    <div class="folder-info">
+                        <div>
+                            <h3>二期贴纸书</h3>
+                            <p>STICKER BOOK / EDITION 02</p>
+                        </div>
+                        <span class="folder-arrow">↗</span>
+                    </div>
+                </button>
+
+                <button class="folder-card" data-folder="poster" data-category="visual">
+                    <div class="folder-meta"><span>FILE_003</span><span>2025—26</span></div>
+                    <div class="folder-art art-poster">
+                        <span class="poster-big">TYPE<br>ERROR</span>
+                        <span class="poster-small">VISUAL<br>COMMUNICATION</span>
+                        <span class="art-index">A—03</span>
+                    </div>
+                    <div class="folder-info">
+                        <div>
+                            <h3>海报设计</h3>
+                            <p>POSTER / GRAPHIC</p>
+                        </div>
+                        <span class="folder-arrow">↗</span>
+                    </div>
+                </button>
+
+                <button class="folder-card" data-folder="merch" data-category="merch">
+                    <div class="folder-meta"><span>FILE_004</span><span>2025—26</span></div>
+                    <div class="folder-art art-merch">
+                        <div class="merch-ring"></div>
+                        <span class="merch-word">OBJECT<br>ARCHIVE</span>
+                        <span class="art-index">A—04</span>
+                    </div>
+                    <div class="folder-info">
+                        <div>
+                            <h3>周边类设计</h3>
+                            <p>MERCH / OBJECT DESIGN</p>
+                        </div>
+                        <span class="folder-arrow">↗</span>
+                    </div>
+                </button>
+
+                <button class="folder-card" data-folder="calendar" data-category="visual">
+                    <div class="folder-meta"><span>FILE_005</span><span>2026</span></div>
+                    <div class="folder-art art-calendar">
+                        <div class="calendar-sheet">
+                            <span>MONTHLY<br>FRAGMENT</span>
+                            <strong>26</strong>
+                            <small>365 DAYS / 01 ARCHIVE</small>
+                        </div>
+                        <span class="art-index">A—05</span>
+                    </div>
+                    <div class="folder-info">
+                        <div>
+                            <h3>台历设计</h3>
+                            <p>CALENDAR / EDITORIAL</p>
+                        </div>
+                        <span class="folder-arrow">↗</span>
+                    </div>
+                </button>
+            </div>
+            <p class="section-footnote">※ FILES ARE CONTINUOUSLY UPDATED / 点击任意档案袋查看详情</p>
+        </section>
+
+        <section class="media-section section" id="media">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">02 / CONTENT DISTRIBUTION</p>
+                    <h2>MEDIA LOG<span>_</span></h2>
+                </div>
+                <p class="section-note">个人账号运营记录<br>SELF-MEDIA ARCHIVE</p>
+            </div>
+
+            <div class="media-grid">
+                <article class="media-card">
+                    <div class="media-top"><span>CHANNEL_01</span><span class="media-symbol">◉</span></div>
+                    <div class="media-platform">BILIBILI</div>
+                    <p class="media-date">ACTIVE SINCE 2021.04</p>
+                    <div class="media-number">1.4<span>W+</span></div>
+                    <p class="media-label">累计获赞 / TOTAL LIKES</p>
+                    <p class="media-desc">视频内容制作与发布，持续积累内容创作经验。</p>
+                    <a href="#" class="media-link" data-link="bilibili">OPEN CHANNEL ↗</a>
+                </article>
+
+                <article class="media-card featured-media">
+                    <div class="media-top"><span>CHANNEL_02</span><span class="media-symbol">◉</span></div>
+                    <div class="media-platform">DOUYIN</div>
+                    <p class="media-date">ACTIVE SINCE 2025.01</p>
+                    <div class="media-number">8.8<span>W+</span></div>
+                    <p class="media-label">累计获赞 / TOTAL LIKES</p>
+                    <p class="media-desc">关注短视频内容表达、视觉呈现与平台内容趋势。</p>
+                    <a href="#" class="media-link" data-link="douyin">OPEN CHANNEL ↗</a>
+                </article>
+
+                <article class="media-card">
+                    <div class="media-top"><span>CHANNEL_03</span><span class="media-symbol">◉</span></div>
+                    <div class="media-platform">XIAOHONGSHU</div>
+                    <p class="media-date">ACTIVE SINCE 2026.01</p>
+                    <div class="media-number">2.2<span>W+</span></div>
+                    <p class="media-label">累计获赞与收藏 / TOTAL LIKES</p>
+                    <p class="media-desc">图文内容与视觉设计实践，探索平台内容呈现方式。</p>
+                    <a href="#" class="media-link" data-link="xiaohongshu">OPEN CHANNEL ↗</a>
+                </article>
+            </div>
+
+            <div class="media-bottom">
+                <span>CONTENT CREATION</span>
+                <span>VIDEO EDITING</span>
+                <span>VISUAL COMMUNICATION</span>
+                <span>PLATFORM OBSERVATION</span>
+            </div>
+        </section>
+
+        <section class="about-section section" id="about">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">03 / OPERATOR PROFILE</p>
+                    <h2>ABOUT ME<span>_</span></h2>
+                </div>
+                <span class="about-code">PROFILE_ID: 026</span>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-left">
+                    <div class="about-graphic">
+                        <span class="graphic-cross">+</span>
+                        <span class="graphic-circle"></span>
+                        <span class="graphic-text">HUMAN<br>INTERFACE<br>NOT FOUND</span>
+                        <span class="graphic-number">026</span>
+                    </div>
+                    <p class="tiny-caption">A PERSONAL ARCHIVE OF VISUAL THINKING.</p>
+                </div>
+
+                <div class="about-right">
+                    <p class="about-intro">
+                        我是一名电子商务专业学生，关注青年文化、视觉表达与数字内容。
+                        喜欢将灵感转化为具体的图像、设计作品和线上内容。
+                    </p>
+                    <p class="about-intro secondary">
+                        希望在新媒体运营、内容策划、电商视觉设计等方向持续探索，
+                        在审美表达与实际传播之间寻找平衡。
+                    </p>
+
+                    <div class="skill-list">
+                        <div class="skill-row"><span>01</span><span>内容运营与热点观察</span><span>CONTENT</span></div>
+                        <div class="skill-row"><span>02</span><span>海报与平面视觉设计</span><span>VISUAL</span></div>
+                        <div class="skill-row"><span>03</span><span>短视频剪辑与包装</span><span>VIDEO</span></div>
+                        <div class="skill-row"><span>04</span><span>文创与周边设计</span><span>OBJECT</span></div>
+                    </div>
+
+                    <a href="#contact" class="about-contact">GET IN TOUCH ↘</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section section" id="contact">
+            <p class="eyebrow">04 / END OF CURRENT FILE</p>
+            <h2>LET'S MAKE<br><span>SOMETHING</span><br>UNEXPECTED.</h2>
+            <a href="mailto:your-email@example.com" class="contact-link">YOUR EMAIL HERE ↗</a>
+            <div class="contact-deco">END<br>OF<br>FILE_026</div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <span>JASMI.NE © 2026</span>
+        <span>PERSONAL DIGITAL ARCHIVE</span>
+        <a href="#home">BACK TO TOP ↑</a>
+    </footer>
+
+    <div class="modal" id="archiveModal" aria-hidden="true">
+        <div class="modal-backdrop" data-close="true"></div>
+        <div class="modal-panel">
+            <div class="modal-header">
+                <div><span class="eyebrow" id="modalCode">FILE_001</span>
+                    <h2 id="modalTitle">核像失焦</h2>
+                </div>
+                <button class="modal-close" id="modalClose" aria-label="关闭">×</button>
+            </div>
+            <p class="modal-description" id="modalDescription"></p>
+            <div class="modal-gallery" id="modalGallery"></div>
+            <p class="modal-hint">IMAGE PLACEHOLDERS / 替换为你自己的作品图片</p>
+        </div>
+    </div>
+
+    <div class="toast" id="toast">ARCHIVE UPDATED</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
